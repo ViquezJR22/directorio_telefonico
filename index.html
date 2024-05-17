@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directorio Telefónico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Directorio Telefónico</h1>
+        <div class="form-group">
+            <input type="text" id="name" placeholder="Nombre">
+            <input type="text" id="phone" placeholder="Teléfono">
+            <button onclick="addContact()">Agregar Contacto</button>
+        </div>
+        <div class="contact-list">
+            <h2>Contactos</h2>
+            <ul id="contacts">
+                <!-- Aqui quedan los contactos agregados -->
+            </ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
